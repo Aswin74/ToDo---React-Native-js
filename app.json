@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "NativeTest",
+    "name": "NativeToDo",
     "slug": "NativeTest",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#222222"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#222222"
+      },
+      "package": "com.aswin_jp.NativeTest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60c281da-32ea-42d6-8709-1af614dd9e00"
+      }
     }
   }
 }
